@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-family: "Share", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Share", sans-serif;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.aboutMe p {
+    font-family: "Truculenta", sans-serif;
+}
+
+.about {
+    font-family: "Share", sans-serif;
+}
+
+.about:active {
+    color: green;
+}
+
+.highlight {
+    color: #ff4500;
+}
+
+.skills:hover {
+    color: black;
+}
+
+#projects {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: "Share", sans-serif;
+    font-weight: 600;
+}
+
+.project {
+    background-color: white;
+    font-family: "Truculenta", sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-family: "Share", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
